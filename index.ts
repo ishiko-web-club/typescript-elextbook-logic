@@ -1,6 +1,5 @@
 // Import stylesheets
 import './style.css';
+import {main} from './logic';
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+console.log(main.ohm({ V: 8, R: 8, I: false }));
